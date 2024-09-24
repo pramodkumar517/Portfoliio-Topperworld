@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pramod Kumar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Pramod Kumar</h1>
+        <p>Web Developer | Designer</p>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        
+        <!-- Project Filtering Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <!-- Project Items -->
+        <div class="project-items">
+            <div class="project-item web">
+                <h3>Web Project 1</h3>
+                <p>Short description of Web Project 1</p>
+            </div>
+            <div class="project-item design">
+                <h3>Design Project 1</h3>
+                <p>Short description of Design Project 1</p>
+            </div>
+            <div class="project-item web">
+                <h3>Web Project 2</h3>
+                <p>Short description of Web Project 2</p>
+            </div>
+            <div class="project-item design">
+                <h3>Design Project 2</h3>
+                <p>Short description of Design Project 2</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a web developer specializing in creating functional and beautiful websites.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top">↑</button>
+
+    <footer>
+        <p>&copy; 2024 Pramod Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
